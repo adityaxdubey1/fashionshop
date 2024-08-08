@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <!-- Same as above -->
+
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Shopping Cart - Fashion Brand</title>
@@ -18,7 +18,7 @@
     <main>
         <h1>Your Shopping Cart</h1>
         <div class="cart-items">
-            <!-- Repeat for each item -->
+
             <div class="cart-item">
                 <img src="product2.jpg" alt="Product 2">
                 <div class="item-info">
@@ -82,13 +82,10 @@
         </div>
     </main>
 
-    <footer>
-        <!-- Same as above -->
-        </footer>
+
 </body>
 </html>
-<script>
-    // Function to remove an item from the cart
+
     function removeItem(event) {
         const cartItem = event.target.closest('.cart-item');
         cartItem.remove();
